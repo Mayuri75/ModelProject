@@ -14,6 +14,7 @@ public class BottomSheetActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bottom_sheet);
         HalfModalView hfm = (HalfModalView) findViewById(R.id.halfModal);
+        //Changes
        /* hfm.setBackgroundButtonTrigger(ContextCompat.getDrawable(this, R.color.other));
         hfm.setBackgroundButtonExpanded(ContextCompat.getDrawable(this, R.color.other));*/
     }
