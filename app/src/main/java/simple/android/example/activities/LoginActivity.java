@@ -57,6 +57,8 @@ public class LoginActivity extends AppCompatActivity implements ZXingScannerView
 
     private static int camId = Camera.CameraInfo.CAMERA_FACING_BACK;
     String testBarCode = "Z123456";
+
+    // LOGIN
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
