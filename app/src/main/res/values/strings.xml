@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ModelProject</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="camera">Camera</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Generate Bar code</string>
+    <string name="photo_option_camera">Take Photo</string>
+    <string name="photo_option_gallery">Choose from Library</string>
+    <string name="label_Select_File">Select File</string>
+    <string name="alrt_fingerprint">Fingerprint is not supported in this device</string>
+    <string name="alrt_fingerprint_configured">Fingerprint not yet configured</string>
+    <string name="alrt_screen_lock">Screen lock is not secure and enable</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

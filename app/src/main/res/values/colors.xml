@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorbg">#f7d6c8</color>
+    <color name="colorb">#fd534848</color>
+    <color name="colorPrimary">#FF8D00</color>
+    <color name="colorPrimaryDark">#363C3E</color>
+    <color name="colorAccent">#FF8E00</color>
+    <color name="colorBrown">#f79f1e</color>
+    <color name="colorCheck">#fc8700</color>
+    <color name="colorLightBrown">#be804a</color>
+    <color name="colorPrimaryLight">#f4bd79</color>
+    <color name="colorPrimaryLight1">#f2ebe3</color>
+    <color name="colorLightGray">#e6e6e6</color>
+    <color name="colorTextGray">#ADADAD</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellowValue">#f1b132</color>
+    <color name="colorGreen">#2e9619</color>
+    <color name="lightheader">#E3E3E2</color>
+    <color name="colorGray">#888888</color>
+    <color name="colorBackgroundGray">#c4bfbf</color>
+    <color name="colorBackgroundGray1">#e9e2e2</color>
+    <color name="colorBackgroundGray2">#dacece</color>
+    <color name="defaultColor">#2962FF</color>
+    <color name="daysLabelColor">#8A000000</color>
+    <color name="currentMonthDayColor">#de000000</color>
+    <color name="nextMonthDayColor">#1F000000</color>
+    <color name="transparent">#ffffff</color>
+    <color name="semiTransparent">#60d9d1d1</color>
+    <color name="truetransparent">#00ffffff</color>
+    <color name="colorDivider">#000000</color>
+    <color name="colorpartialGreen">#6FB969</color>
+    <color name="colorLightGreen">#5fc287</color>
+    <color name="colorLabelGray1">#b4acac</color>
+    <color name="colorValueBlack1">#413d3d</color>
+    <color name="colorSelectionPink">#FFFAF4</color>
+    <color name="colorSelectionheader">#FFDEB6</color>
+    <color name="colorSelection">#FFFAF4</color>
+    <color name="colorRateheader">#FFE1BE</color>
+    <color name="colorRate">#FFF3E4</color>
+    <color name="colorGray0">#95989A</color>
+    <color name="colorGray1">#515151</color>
+    <color name="colorGray2">#696969</color>
+    <color name="colorGray3">#8f8f8f</color>
+    <color name="colorGray4">#000000</color>
+    <color name="colorGray5">#c4bfbf</color>
+    <color name="taxcalculation_net">#d1d1d1</color>
+    <color name="colorGray6">#939393</color>
+    <color name="colorGray7">#595959</color>
+    <color name="colorGray8">#979797</color>
+    <color name="colorGray9">#343434</color>
+    <color name="colorVacant">#B3D692</color>
+    <color name="colorPartialRed">#c63e3e</color>
+    <color name="colorTitleBG">#3E3E3E</color>
+    <color name="colorSelectedTitleBG">#FFDEB6</color>
+    <color name="colorSelectedSubTitleBG">#FFF3E5</color>
+    <color name="colorHintGrey">#8A000000</color>
+    <color name="colorTitleBG2">#FFDEB7</color>
+    <color name="colorTitleBG3">#FFE8CE</color>
+    <color name="colorTitleBG4">#FFE9CE</color>
+    <color name="colorBACKGROUND">#FFF1E2</color>
+
+
+
+    <!--Dashboard Color List-->
+    <color name="colorDashOccupied">#188FE6</color>
+    <color name="colorDashTobeOccupied">#C48759</color>
+    <color name="colorDashOOS">#FFB100</color>
+    <color name="colorDashToSell">#10B588</color>
+    <color name="colorDashGraphRed">#EB5151</color>
+    <color name="colorDashGraphOrange">#FF8E00</color>
+    <color name="other">#FF8E00</color>
+    <color name="colorDashText">#454545</color>
+
+    <!--Please do not EDIT. Colors as per UI team-->
+
+    <color name="colorWhite">#ffffff</color>
+    <!-- for text color as primary text -->
+    <color name="colorBlackLabel">#95989A</color>
+    <!-- for text color as primary text value-->
+    <color name="colorBlackValue">#454545</color>
+    <color name="colorBlackSubtitle">#454545</color>
+    <color name="colorGrayBorder">#8B8B8B</color>
+    <color name="colorGrayUnderline">#95989A</color>
+    <color name="colorBlackTitleBar">#3E3E3E</color>
+    <color name="colorAccentWidgetBK">#FF8D00</color>
+    <color name="colorAccentGreen">#5EA311</color>
+    <color name="colorAccentBrown">#B47F3C</color>
+    <color name="colorAccentGrey">#ACACAC</color>
+    <color name="colorRecyclerSelection">#FEE0BE</color>
+    <color name="colorAfterRecyclerSelection">#ffcc91</color>
+    <color name="colorAfterSelection">#FFE5C4</color>
+    <color name="colorAfterSelectionDetail">#FFF5EA</color>
+    <color name="colorBlackTabUnselected">#515151</color>
+    <color name="colorAccentTabSelected">#FF8E00</color>
+    <color name="colorAccentWhite">#FFFFFF</color>
+    <color name="colorcheckboxlayoutSelected">#FEDFBB</color>
+    <color name="colourSignature">#ffd3d9</color>
+    <color name="colorMaroon">#800000</color>
+
+    <!--Room Block color list-->
+    <color name="colorOOS">#061797</color>
+    <color name="colorAllocated">#35bbe1</color>
+    <color name="colorOccupied">#6b6a6a</color>
+    <color name="colorDirty">#ecc93f</color>
+    <color name="colorOOO">#f22c1a</color>
+    <color name="colorDarkPink">#f21a62</color>
+    <color name="transclucent">#80000000</color>
+    <color name="noneditabletransclucent">#80e4ddde</color>
+    <color name="black50">#80000000</color>
+    <color name="primary_text">#212121</color>
+    <color name="multiselect_done">#388e3c</color>
+    <color name="error_text">#b71c1c</color>
+    <color name="guestProfileBackground">#FFF7ED</color>
+    <color name="colorMBlock">#FF00FF</color>
+</resources>

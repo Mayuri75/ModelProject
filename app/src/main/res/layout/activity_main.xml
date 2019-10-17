@@ -1,0 +1,393 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+
+    android:id="@+id/dash_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:fitsSystemWindows="true"
+    tools:context="simple.android.example.activities.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#FFF"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/actionbar_roomrateposting"></include>
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llclearCache"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/cache"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Cache Clear"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llprofile"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgGuestProfile"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Camera date &amp; time picker"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/UserData"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_edit" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="View Pager"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llliveTrack"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/liveTrack"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Bluetooth"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llroomdb"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/roomDb"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Room DB"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llroomdb2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/roomDb2"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Room DB2"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llcall"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/call"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Call And Message"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llwifi"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/wifi"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Wifi"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="23dp"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="#FFF"
+                android:orientation="horizontal"
+                android:id="@+id/llbtmSheet"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sheet"
+                    android:layout_width="@dimen/squareshape_imageviewsize_width"
+                    android:visibility="invisible"
+                    android:layout_height="@dimen/squareshape_imageviewsize_width"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_guest_name" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Sheet"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/drawer_level1"
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#FFF"
+            android:choiceMode="singleChoice"
+            android:divider="#1A000000"
+            android:dividerHeight="0.5dp"
+            android:fitsSystemWindows="true"
+            android:scrollbars="none" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true">
+
+            <ListView
+                android:id="@+id/drawer_level2"
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:choiceMode="singleChoice"
+                android:divider="#1A000000"
+                android:dividerHeight="0.5dp"
+                android:fitsSystemWindows="true"
+                android:scrollbars="none"
+                android:visibility="gone" />
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
